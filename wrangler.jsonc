@@ -9,7 +9,6 @@
     "head_sampling_rate": 0.1
   },
   "vars": {
-    "WEBDAV_USERNAME": "dav_m8x4q9",
     "QUOTA_THRESHOLD_PERCENT": "0.8",
     "R2_BUCKET_NAME": "webdav",
     "TRASH_RETENTION_DAYS": "30"
