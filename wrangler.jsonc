@@ -9,14 +9,15 @@
     "head_sampling_rate": 0.1
   },
   "vars": {
-    "WEBDAV_USERNAME": "webdav",
+    "WEBDAV_USERNAME": "dav_m8x4q9",
     "QUOTA_THRESHOLD_PERCENT": "0.8",
-    "R2_BUCKET_NAME": "cf-free-webdav-files",
+    "R2_BUCKET_NAME": "webdav",
     "TRASH_RETENTION_DAYS": "30"
   },
   "r2_buckets": [
     {
-      "binding": "FILES"
+      "binding": "FILES",
+      "bucket_name": "webdav"
     }
   ],
   "durable_objects": {
